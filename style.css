@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(203, 227, 227);
+
+}
+
+.title {
+    font: bold 1.5em Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white; 
+    text-shadow: 1px 1px #9cfad2, 
+                2px 2px #9cfad2, 
+                3px 3px #9cfad2;
+    margin-top: 10vh;
+    padding: 0;
+}
+
+.title:hover {
+    color: rgb(138, 138, 210);
+    position: relative; 
+    top: -3px; 
+    left: -3px; 
+    text-shadow: 1px 1px #a6fe02, 
+                 2px 2px , 
+                 3px 3px #1d4c7e, 
+                 4px 4px , 
+                 5px 5px #154a55, 
+                 6px 6px;
+    border: none;
+    transform: scale(1.5)
+ }
+
+.count-box {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.item1 {
+    position: absolute;
+    top:  -14%;
+    left: 23%;
+}
+
+.num {
+    position: absolute;
+    top:  36%;
+    left: 49.5%;
+}
